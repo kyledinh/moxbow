@@ -10,6 +10,9 @@ Moxbow will remove the backend parts to make it a Blogging CMS that will updated
 * `cd build/` then `http-server` to run in dev
 * open `http://127.0.0.1:8080`
 
+<img src="assets/mockingbox-screen.png" width="500" />
+
+
 ## Size of `index.html` lines
 * 24504 build/index.html - original
 * 24344 - removed RamDict
