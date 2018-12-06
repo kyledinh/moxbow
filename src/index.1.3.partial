@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="UTF-8"><title>Mockingbox</title>
+<link rel="shortcut icon" href="/static/img/favicon.ico">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<style>body { font-family: helvetica, arial, sans-serif; }</style>
+<script type="text/javascript">
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+function w3_open() {
+  if (document.getElementById('mySidebar').style.display === 'block') {
+      document.getElementById('mySidebar').style.display = 'none';
+  } else {
+      document.getElementById('mySidebar').style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  document.getElementById('mySidebar').style.display = 'none';
+}
+</script>
+<script type="text/javascript">

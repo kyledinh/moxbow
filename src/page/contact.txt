@@ -1,0 +1,42 @@
+{ version: "1"
+, title: "Edit Post"
+, author: "Kyle Dinh"
+, contentType: "Json"
+}
+
+["div",{},
+ [["table",{"class":"form"},
+   [["#textValueRow","Author:","author"],
+    ["#textValueRow","Time:","time"],
+    ["#textInputRow","Title:","title",40],
+    ["#textInputRow","Path:","path",40]
+   ]
+  ],
+  ["p",{},
+   [["b",{},"Body:"],
+    ["br",{},[]],
+    ["textarea",{"wrap":"virtual",
+                 "cols":80,
+                 "rows":20,
+                 "onInput":["#setText","body"],
+                 "value":["#getText","body"]
+                },
+     []
+    ]
+   ]
+  ],
+  ["table",{"class":"form"},
+   [["#textInputRow","Tags (a,b,...):","tags",60],
+    ["tr",{},
+     [["th",{},["Content:"]],
+      ["td",{},[["#formSelector","contentType",
+                 ["Markup","Json","Text","Code"],
+                 ["#getText","contentType"]
+                ]]
+      ]
+     ]
+    ]
+   ]
+  ]
+ ]
+]

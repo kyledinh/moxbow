@@ -1,0 +1,22 @@
+#!/bin/bash
+
+elm-make src/Moxbow.elm --output build/index.html
+
+cp src/static/css/w3.css build/.
+cp src/*.html build/.
+
+cp src/settings.json build/.
+cp -rf src/page build/.
+cp -rf src/static build/.
+
+mkdir -p build/template/default
+cp -rf src/template/default/*.* build/template/default/.
+cp -rf src/template/beta/*.* build/template/default/.
+
+cp -rf src/logo-maker build/.
+
+mv build/index.html tmp.html
+sed -i '.bak' 1,3d tmp.html
+cp src/index.1.3.partial build/index.html
+cat tmp.html >> build/index.html
+rm tmp.html*

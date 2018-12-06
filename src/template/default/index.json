@@ -1,0 +1,6 @@
+["div",{},
+ [["p",{},["$settings.siteDescription"]],
+  ["div",{"class":"node-content"},"$node.content"],
+  "?refererlink"
+ ]
+]

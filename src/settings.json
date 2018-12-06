@@ -1,0 +1,39 @@
+{ "siteName": "Mockingbox",
+  "siteSlogan": "Mobile-Web App Development",
+  "siteEditor": "Kyle Dinh",
+  "siteUrl": "https://mockingbox.com/",
+  "siteDescription": ["Mobile/Web App Development"],
+  "style": "default",
+  "topnav": ["div",{"class":"w3-bar w3-white w3-card", "id":"myNavbar"}, [
+                ["a",{"href":"index.html","class":"w3-bar-item w3-button w3-wide"}, ["img",{"src":"/static/img/mockingbox-logo.svg", "alt":"Mockingbox Logo", "height":24},[]]
+                ]
+                ,["div",{"class":"w3-right w3-hide-small"},[
+                    ["a",{"href":"index.html#services","class":"w3-bar-item w3-button"}, ["SERVICES"]]
+                    ,["a",{"href":"index.html#blog","class":"w3-bar-item w3-button"}, ["BLOG"]]
+                    ,["a",{"href":"index.html#about","class":"w3-bar-item w3-button"}, ["ABOUT"]]
+                  ]
+                ]
+                ,["a",{"href":"javascript:w3_open()","class":"w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"}, [
+                    ["i", {"class":"fa fa-bars"},[]]
+                    ]
+                  ]
+                ]
+              ],
+  "slidenav":["nav",{"class":"w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large display-none","id":"mySidebar"}, [
+                ["a",{"href":"javascript:w3_close()","class":"w3-bar-item w3-button"}, ["Close x"]]
+                ,["a",{"href":"index.html#services","class":"w3-bar-item w3-button"}, ["SERVICES"]]
+                ,["a",{"href":"index.html#blog","onclick":"w3_close()","class":"w3-bar-item w3-button"}, ["BLOG"]]
+                ,["a",{"href":"index.html#about","onclick":"w3_close()","class":"w3-bar-item w3-button"}, ["ABOUT"]]
+                ]
+              ],
+  "footer": ["Copyright ","$entities.copyright"," 2018 Mockingbox",
+             ["br",{},[]]
+             ,["p",{},"981 Mission St, San Francisco, CA 94103"]
+             ,["a",{"href":"https://xossbow.com/"},["Made with Xossbow/Elm"]]
+             ,["div",{"class":"w3-xlarge w3-section"},[
+                ["a",{"href":"https://twitter.com/mockingbox"},["i",{"class":"fa fa-twitter w3-hover-opacity w3-margin-6"},[]]]
+                ,["a",{"href":"https://github.com/mockingbox"},["i",{"class":"fa fa-github w3-hover-opacity w3-margin-6"},[]]]
+                ]
+             ]
+           ]
+}

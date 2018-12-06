@@ -1,0 +1,12 @@
+{ version: "1"
+, nodeTemplate: "index"
+, title: "Play"
+, author: "Kyle Dinh"
+}
+
+This is an example of embedding Elm modules onto a blog page. Simple apply this code: `[["#playDiv"]]` into the `dev.txt` file.
+See the [PlayDiv](https://github.com/billstclair/elm-html-template/blob/3.1.1/src/HtmlTemplate/PlayDiv.elm) source code on GitHub.
+
+Type [JSON](https://github.com/billstclair/elm-html-template/blob/master/JSON.md) or [Markdown](https://github.com/billstclair/elm-html-template/blob/master/Markdown.md) into the box below to see how it parses and evaluates. Anything not beginning with a left square bracket ("[") will be parsed as Markdown.
+
+[["#playDiv"]]

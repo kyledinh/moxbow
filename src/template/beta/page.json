@@ -1,0 +1,12 @@
+["div",{},
+  [ ["style",{"type":"text/css"},["@@import \"w3.css\""]]
+    ,["div",{"class":"w3-top"},["$settings.topnav"]]
+    ,["div",{"class":""},["$settings.slidenav"]]
+    ,["br",{},[]]
+    ,["br",{},[]]
+    ,["div",{"class":""},["$content"]]
+    ,["footer",{"class":"w3-center w3-black w3-padding-64"},
+      ["p",{}, ["$settings.footer"]]
+    ]
+  ]
+]

@@ -1,0 +1,9 @@
+{ version: "1"
+, title: "Documentation"
+, author: "Kyle Dinh"
+}
+
+This will eventually be the index page for documentation on using Xossbow.
+
+* [JSON Documentation](https://github.com/billstclair/elm-html-template/blob/master/JSON.md)
+* [Markdown Documentation](https://github.com/billstclair/elm-html-template/blob/master/Markdown.md)

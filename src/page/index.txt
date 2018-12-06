@@ -1,0 +1,8 @@
+{ version: "1"
+, nodeTemplate: "welcome"
+, title: "Index"
+, author: "Kyle Dinh"
+, contentType: "Json"
+}
+
+["@blog"]

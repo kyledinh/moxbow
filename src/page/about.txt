@@ -1,0 +1,17 @@
+{ version: "1"
+, nodeTemplate: "about"
+, title: "About"
+, author: "Kyle Dinh"
+, contentType: "Json"
+}
+
+[
+    ["img",{"class":"w3-image w3-float-left w3-round-large","src":"/static/img/whale.png","alt":"Dev Ops","width":400},[]]
+    ,["h2",{},["About Mockingbox"]]
+    ,["p",{},["Dolore velit aliqua fugiat veniam esse Lorem irure aliquip excepteur in."]]
+    ,["h5",{},["COMMITTED TO CODE"]]
+    ,["p",{},["Excepteur culpa elit amet nulla officia duis proident voluptate eu fugiat nisi elit ex officia proident."]]
+    ,["p",{},["Consectetur aliqua ad commodo sint culpa et commodo id dolore elit nulla esse aute incididunt consectetur. Tempor fugiat amet ut id do deserunt sit anim irure occaecat. Qui sunt non consectetur qui eu ex occaecat magna velit duis velit do cillum reprehenderit. Exercitation fugiat ex laborum commodo ipsum commodo aliqua non."]]
+    ,["p",{},["Cupidatat sint minim anim anim commodo esse aliqua cillum culpa fugiat voluptate nulla. Reprehenderit culpa elit minim reprehenderit Lorem mollit ea laborum et cupidatat culpa nisi nisi id magna anim laborum. Amet eiusmod tempor do eu nulla nulla id minim qui ad amet esse ipsum nostrud aute ea. Duis enim Lorem adipisicing quis qui ut esse ullamco deserunt cupidatat sunt sint est ut proident minim ad. Sunt sunt esse commodo minim sunt id fugiat do fugiat. Adipisicing duis cillum ut excepteur veniam Lorem occaecat cillum."]]
+    ,["p",{},["Ullamco exercitation minim ipsum quis fugiat anim et id adipisicing fugiat minim nisi nostrud ipsum anim. Id fugiat magna laboris quis magna dolore in ex amet sit voluptate. Tempor eiusmod occaecat pariatur proident tempor aliquip minim in cupidatat dolore elit reprehenderit incididunt deserunt et in in. Et fugiat aute proident ad duis proident elit Lorem. Sit ad nulla velit nostrud aliquip adipisicing magna velit ipsum minim mollit aute consequat amet occaecat."]]
+]

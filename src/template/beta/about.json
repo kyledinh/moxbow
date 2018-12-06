@@ -1,0 +1,8 @@
+["div",{"class":"w3-about-content"},[
+  ["div",{"class":"w3-index-content"},[
+      ["div",{"class":"w3-row-padding"},[
+          ["div",{"class":"node-content"},"$node.content"]]]
+      ]
+    ]
+  ]
+]

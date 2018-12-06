@@ -1,0 +1,23 @@
+{ version: "1"
+, nodeTemplate: "blog"
+, title: "Yet another Blogging/CMS platform!"
+, author: "Kyle Dinh"
+}
+
+What felt like shortly after the late Cretaceous Period, in the early years of the Internet, I was writing HTML by hand. Page after page, I would update links from one to another. I would make sure my copy was inside the appropriate tags and the XML syntax was correct.
+
+I found Wordpress and lifted and carried a mysql dump with me to from one install to another.
+
+A short stint with Wikis.
+
+Github introduced me to love Markdown.
+
+A fling with Gatsby.
+
+Now enters Elm and Xossbow. Well, a modified Xossbow, I dubbed Moxbow.
+
+```
+bin/build
+```
+
+![exhibit](static/img/blog-atom-editor.png)

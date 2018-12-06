@@ -1,0 +1,15 @@
+["div",{"class":"w3-container"},
+  [ ["div",{"class":"w3-row-padding"},
+      [
+
+        [ "div", {},
+          [ ["h2", {},[["#pageLink","$node.path","$node.title"]]]
+            ,["div",{"class":"node-content"},"$node.content"]
+            ,["#if",["#==","$page","$node.path"],"?refererlink"]
+          ]
+        ]
+
+      ]
+    ]
+  ]
+]

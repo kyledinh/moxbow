@@ -1,0 +1,44 @@
+{ version: "1"
+, nodeTemplate: "index"
+, title: "Services: Form and Function"
+, author: "Kyle Dinh"
+, contentType: "Json"
+}
+
+[
+  ["img",{"class":"w3-image w3-float-right w3-round-large","src":"/static/img/praha.jpg","alt":"Dev Ops","width":400},[]]
+  ,["h2",{},"$node.title"]
+  ,["h4",{},"Android/iOS Development with React Native"]
+  ,["p",{},["Build for both platform simultaneously, application logic written with a common codebase. Deliver a more consistent user experience. Using ES6 Javascript and patterns with React and Redux. React Native also leaves the flexibility of hybriding the app with native code written in Swift or Java."]]
+
+  ,["h4",{},"Mobile Prototype/MVP"]
+  ,["p",{},["A Minimum Viable Product(MVP) is a logical start. It provides an easy entry get an idea into the product cycle. Early feedback can shape the parameters for the app."]]
+  ,["ul",{},[
+    ["li",{},"Modest budget to get a working application"]
+    ,["li",{},"Quick turn around in matter of 12 weeks"]
+    ,["li",{},"Incorporate branding and design"]
+    ,["li",{},"Backend design and setup"]
+    ]]
+  ,["h4",{},["Mobile App Development and Publishing",["i",{"class":"fab fa-1x fa-github w3-margin-6"},[]]]]
+  ,["p",{},["On going development of the app to extend feature and usability. Gather feedback and add to feature push. "]]
+  ,["ul",{},[
+    ["li",{},"Extend features"]
+    ,["li",{},"UIUX work"]
+    ,["li",{},"Integration with services and APIs"]
+    ,["li",{},"Test and improve infrastructure"]
+    ,["li",{},[
+        ["Get it to stores: "]
+        ,["img",{"src":"/static/img/app-store.png","alt":"App Store","width":120},[]]
+        ,["img",{"class":"w3-margin-left-6","src":"/static/img/google-play.png","alt":"Google Play","width":120},[]]
+      ]]
+    ]]
+  ,["div",{"class":"w3-margin"},[]]
+  ,["h4",{},"Full Stack Web Development"]
+  ,["p",{},["HTML5, Javascript, Elm, Golang, Docker. Any tools that will produce high-fidelity web experience."]]
+  ,["ul",{},[
+    ["li",{},"From Git to Production"]
+    ,["li",{},"Robust Frontend"]
+    ,["li",{},"Reliable Backend"]
+    ,["li",{},"Testing, Docs and more"]
+    ]]
+]

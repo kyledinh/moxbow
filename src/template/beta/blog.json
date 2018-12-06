@@ -1,0 +1,15 @@
+["div",{"class":"w3-blog-content"},[
+  ["div",{"class":"w3-index-content w3-light-grey"},[
+      ["div",{"class":"w3-row-padding"},[
+          ["div",{"class":"node-content"},[
+              ["h2",{},"$node.title"]
+              ,["span",{},"By "]
+              ,["span",{},"$node.author"]
+              ]
+            ]
+          ,["div",{"class":"node-content"},"$node.content"]]]
+
+      ]
+    ]
+  ]
+]
